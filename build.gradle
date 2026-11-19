@@ -1,0 +1,12 @@
+// Root build configuration compatible with AndroidIDE and the specified legacy toolchain.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10'
+        classpath 'com.chaquo.python:gradle:14.0.2'
+    }
+}
